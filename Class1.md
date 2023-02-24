@@ -12,3 +12,7 @@
 **对称差 Symmetric Difference**: 属于 A，不属于 B 或 属于 B，不属于 A
 `A⊕B = (A-B) U (B-A)`
 反映了 A 与 B 的差异。差异越大，对称差越大。
+
+`|A U B| = |A| + |B| - |A ∩ B|`
+
+`|A U B U C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C|- |B ∩ C| + |A ∩ B ∩ C|`
